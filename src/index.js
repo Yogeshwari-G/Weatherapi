@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import backgroundImage from "weatherbackground.jpg";
+import backgroundImage from ".assets/images/weatherbackground.jpg";
 
 const WeatherApp = () => {
   const [city, setCity] = useState("");
